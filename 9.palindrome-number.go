@@ -18,14 +18,13 @@ func isPalindrome(x int) bool {
 	for x > y {
 		r := x % 10
 		x = x / 10
-		y = y*10 + r
+		y = y * 10 + r
 
-		if x == y || x/10 == y {
-			return true
-		}
+		if x == y || x == x / 10 == {
+		return true
 	}
-
 	return false
+
 }
 
 // @lc code=end
