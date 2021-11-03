@@ -20,7 +20,7 @@ func sortedSquares(nums []int) []int {
 	for i := n - 1; i >= 0; i-- {
 		maxValue := 0
 
-		if Abs(nums[left]) > Abs(nums(right)) {
+		if Abs(nums[left]) > Abs(nums[right]) {
 			maxValue = nums[left]
 			left++
 		} else {
@@ -29,7 +29,7 @@ func sortedSquares(nums []int) []int {
 		}
 		result = maxValue * maxValue
 	}
-	return maxValue
+	return result
 
 }
 
